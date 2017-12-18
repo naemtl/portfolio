@@ -1,0 +1,58 @@
+a.navbar-item:hover {
+    background-color: transparent;
+    color: #4a4a4a;
+}
+
+body {
+	display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+	background-image: url(../images/silo5.jpg);
+	background-position: 10% 57%;
+	background-repeat: no-repeat;
+}
+
+nav form {
+	display: flex;
+}
+
+img {
+	border: 1px solid grey;
+	margin-bottom: 1em;
+}
+
+.footer {
+	padding: 3rem;
+}
+
+.navbar-burger:hover {
+    background-color: #fff;
+}
+
+.navbar, .navbar-menu.is-active {
+	background-color: transparent;
+	text-shadow: 1px 1px 0px white;
+}
+
+.navbar h1, a, a.navbar-item {
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.section {
+	flex: 1;
+	background-color: transparent;
+}
+
+.tabs ul {
+	justify-content: center;
+}
+
+.tabs li.is-active a {
+    border-bottom-color: lightgrey;
+    color: lightgrey;
+}
