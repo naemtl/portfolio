@@ -10,9 +10,8 @@ body {
 }
 
 header {
-	background-image: url(../images/silo5.jpg);
+	background: url(../images/silo5.jpg) no-repeat; max-width: 100%; 
 	background-position: 10% 57%;
-	background-repeat: no-repeat;
 }
 
 nav form {
