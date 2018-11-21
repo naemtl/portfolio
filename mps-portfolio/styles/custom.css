@@ -3,16 +3,21 @@ a.navbar-item:hover {
     color: #4a4a4a;
 }
 
+div.align-icon .fab, div.align-icon .fas {
+	display: table;
+    margin: 0 auto;
+}
+
 body {
 	display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
-header {
+/*header {
 	background: url(../images/silo5.jpg) no-repeat; max-width: 100%; 
 	background-position: 10% 57%;
-}
+}*/
 
 nav form {
 	display: flex;
@@ -23,8 +28,50 @@ img {
 	margin-bottom: 1em;
 }
 
+section.main-background {
+	background: url(../images/silo5.jpg) no-repeat; max-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+nav.navbar {
+    padding: 0 15px;
+}
+
+.color-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: .7;
+	position: absolute;
+}
+
+.columns.icon-row {
+    padding: 30px 0 0;
+}
+
 .footer {
 	padding: 3rem;
+}
+
+article.message {
+	background-color: transparent;
+	border: none;
+	font-size: 2rem;
+}
+
+div.bio.message-body {
+	border: none;
+	color: #fafafa;
+	padding: 2.25em 1.5em;
+}
+
+div.skills.message-body {
+	border: none;
+	padding: 0em 1.5em 1em;
+	font-size: 1.3rem;
 }
 
 .navbar-burger:hover {
@@ -43,8 +90,24 @@ img {
 }
 
 .section {
-	flex: 1;
-	background-color: transparent;
+	padding: 0 0 0 0;
+}
+
+section.section.nav-section {
+    padding: 30px 0;
+}
+
+.strengths .container {
+    padding: 1.25em 1.5em;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+.table td, .table th {
+	border: none;
 }
 
 .tabs ul {
@@ -54,4 +117,8 @@ img {
 .tabs li.is-active a {
     border-bottom-color: lightgrey;
     color: lightgrey;
+}
+
+.title:not(:last-child) {
+    margin-bottom: 0px;
 }
